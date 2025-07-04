@@ -11,7 +11,7 @@ public class MainUser {
         try{
 //            user.create(newUser);
 
-            User read = user.read(1);
+            User read = user.read(5);
             System.out.println(read);
         } catch (SQLException e){
             throw new RuntimeException(e);
